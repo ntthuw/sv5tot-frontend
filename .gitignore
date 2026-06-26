@@ -22,3 +22,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Bổ sung chặn các file biến môi trường (Bảo mật)
+.env
+.env.production
+.env.development
+.env.test
